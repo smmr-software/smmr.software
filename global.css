@@ -1,0 +1,54 @@
+:root {
+  --background-color: #1F1E1E;
+  --text-color: #FDFDFE;
+  --peachy-orange: #F25F4C;
+  --gold: #FDDC5C;
+  --light-blue: #BDF6FE;
+}
+
+body {
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Cantarell, Ubuntu, Helvetica, Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  text-align: center;
+}
+
+.gold {
+  color: var(--gold);
+}
+
+.blue {
+  color: var(--light-blue);
+}
+
+header {
+  padding-top: 1rem;
+}
+
+h1 {
+  font-weight: 300;
+  margin: 0;
+}
+
+#subtitle {
+  font-size: 1rem;
+  font-weight: 200;
+  margin: 0;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration-color: var(--peachy-orange);
+}
+
+h2 {
+  margin-top: 5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
