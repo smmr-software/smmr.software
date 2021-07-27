@@ -61,3 +61,17 @@ ul {
   padding-top: 1.5rem;
   padding-right: 1.5rem;
 }
+
+#bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#email {
+  font-size: 0.75rem;
+  font-weight: 200;
+}
